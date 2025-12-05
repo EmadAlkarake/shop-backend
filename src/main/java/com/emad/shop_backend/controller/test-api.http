@@ -1,0 +1,22 @@
+### 1. طلب قراءة كل المنتجات (GET)
+GET http://localhost:8080/api/products
+
+### 2. طلب إضافة منتج جديد (POST)
+POST http://localhost:8080/api/products
+Content-Type: application/json
+
+{
+  "name": "Sony Headphones",
+  "price": 150.0,
+  "category": "ELECTRONICS"
+}
+
+### 3. طلب إضافة منتج آخر (طعام)
+POST http://localhost:8080/api/products
+Content-Type: application/json
+
+{
+  "name": "Burger",
+  "price": 15.0,
+  "category": "FOOD"
+}
